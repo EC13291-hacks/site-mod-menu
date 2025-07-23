@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Draggable Site Modifier",
+  "version": "1.0",
+  "description": "Site modifier GUI with draggable panel.",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}

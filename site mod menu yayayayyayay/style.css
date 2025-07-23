@@ -1,0 +1,12 @@
+#modifier-gui button {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  margin: 4px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#modifier-gui button:hover {
+  background: #666;
+}
